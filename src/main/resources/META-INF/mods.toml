@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/"
+
+[[mods]]
+modId="chaosclock"
+version="4.1.0"
+displayName="ChaosClock"
+authors="you"
+description='''Random chaos events on a per-player timer, with karma system, luck potions and force shop.'''
+
+[[dependencies.chaosclock]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.chaosclock]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
